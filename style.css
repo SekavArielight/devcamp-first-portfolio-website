@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    font-size: 15px;
+}
+
+.nav-links{
+    margin: 0 20px;
+}
+
+.contact-button{
+    border: 1px solid #4fc3f7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.section-1{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("assets/image-1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+
+.section-1 h1{
+    font-size: 63px;
+}
+
+.hero-button{
+    border: 1px solid #4fc3f7;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.section-2{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-2 h1{
+    font-size: 45px;
+}
+
+.section-2 p{
+    padding: 15px 0;
+}
+
+.about-button{
+    border: 1px solid #4fc3f7;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.section-3 h1{
+    font-size: 45px;
+}
+
+.section-3{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-3-grid{
+    display: grid;
+    gap: 20px;
+    grid-auto-columns: 270px;
+    grid-auto-rows: 220px;
+    grid-template-areas: 
+    "item1 item2 item3"
+    "item4 item4 item5";
+    margin: 30px auto;
+    width: fit-content;
+}
+
+.section-3-item{
+    border: 1px solid #fff;
+}
+
+.first-grid-child{
+    grid-area: item1;
+}
+
+.second-grid-child{
+    grid-area: item2;
+}
+
+.third-grid-child{
+    grid-area: item3;
+}
+
+.fourth-grid-child{
+    grid-area: item4;
+    background-color: red;
+}
+
+.fifth-grid-child{
+    grid-area: item5;
+}
