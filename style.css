@@ -10,7 +10,8 @@
 
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
     padding: 40px 0;
     font-size: 15px;
 }
