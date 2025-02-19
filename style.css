@@ -26,6 +26,10 @@ header{
     border-radius: 5px;
 }
 
+.contact-button:hover{
+    background-color: #4fc3f7;
+}
+
 .section-1{
     display: flex;
     gap: 15px;
@@ -49,6 +53,10 @@ header{
     padding: 10px 30px;
     border-radius: 30px;
     font-size: 14px;
+}
+
+.hero-button:hover{
+    background-color: #4fc3f7;
 }
 
 .section-2{
