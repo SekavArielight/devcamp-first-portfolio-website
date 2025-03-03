@@ -163,6 +163,7 @@ header{
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .section-4 h1{
@@ -189,4 +190,19 @@ header{
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 250px 250px;
     gap: 20px;
+}
+
+.section-5{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom:80px;
+}
+
+.section-5 h1{
+    font-size: 45px;
+}
+
+form{
+    margin-top: 30px;
 }
