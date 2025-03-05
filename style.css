@@ -239,3 +239,30 @@ form{
     padding: 10px 0px;
     cursor: pointer;
 }
+
+footer{
+    max-width: 1200px;
+    margin: 80px auto 20px;
+}
+
+.first-footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-footer-div h2{
+    font-size: 53px;
+    font-weight: 300;
+}
+
+.second-footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.footer-social-icons i{
+    margin: 0 5px;
+}
