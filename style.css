@@ -204,5 +204,38 @@ header{
 }
 
 form{
-    margin-top: 30px;
+    margin: 30px auto 0;
+    max-width:500px;
+    text-align: left;
+}
+
+.form-group label{
+    display: block;
+    margin: 5px 0;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+}
+
+.form-group select{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+}
+
+.form-group textarea{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+}
+
+.form-button{
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 0px;
+    cursor: pointer;
 }
